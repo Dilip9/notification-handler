@@ -1,5 +1,6 @@
 package gouri.notification.notification_handler.consumer;
 
+import gouri.notification.notification_handler.dto.NotificationRequest;
 import gouri.notification.notification_handler.service.SmsSenderService;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.core.KafkaTemplate;

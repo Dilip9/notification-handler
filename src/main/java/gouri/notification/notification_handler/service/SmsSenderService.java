@@ -1,5 +1,6 @@
 package gouri.notification.notification_handler.service;
 
+import gouri.notification.notification_handler.dto.NotificationRequest;
 import gouri.notification.notification_handler.vendor.SmsVendorClient;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.retry.annotation.Retry;
